@@ -2,6 +2,7 @@
 
 set(libfdc765-qt_SRCS
     diskimagefile.cpp
+    floppydiskcontroller.cpp
 )
 
 add_library(libfdc765-qt SHARED ${libfdc765-qt_SRCS})
